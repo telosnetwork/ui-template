@@ -92,6 +92,7 @@ export const getUserProfile = async function({ commit }, accountName) {
     });
 
     const profile = profileResult.rows[0];
+    //const evmAccount = await this.$evm.telos.getEthAccountByTelosAccount(accountName)
     commit("setProfile", profile);
   } catch (error) {
     commit("general/setErrorMsg", error.message || error, { root: true });

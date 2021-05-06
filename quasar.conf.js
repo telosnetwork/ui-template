@@ -20,7 +20,7 @@ module.exports = function(/* ctx */) {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     // https://quasar.dev/quasar-cli/boot-files
-    boot: ["ual", "hyperion", "api"],
+    boot: ["ual", "hyperion", "api", "evm"],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
     css: ["app.sass"],
@@ -49,7 +49,11 @@ module.exports = function(/* ctx */) {
         NETWORK_PORT: parseInt(process.env.NETWORK_PORT),
         NETWORK_PROTOCOL: process.env.NETWORK_PROTOCOL,
         NETWORK_EXPLORER: process.env.NETWORK_EXPLORER,
-        HYPERION_ENDPOINT: process.env.HYPERION_ENDPOINT
+        HYPERION_ENDPOINT: process.env.HYPERION_ENDPOINT,
+        NETWORK_EVM_RPC: process.env.NETWORK_EVM_RPC,
+        NETWORK_EVM_CONTRACT: process.env.NETWORK_EVM_CONTRACT,
+        NETWORK_EVM_CHAIN_ID: process.env.NETWORK_EVM_CHAIN_ID,
+        NETWORK_EVM_ENDPOINT: process.env.NETWORK_EVM_ENDPOINT
       },
 
       // transpile: false,
