@@ -44,7 +44,7 @@ See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
 ### Troubleshoot
 
-`ERR_OSSL_EVP_UNSUPPORTED` 
+> ERR_OSSL_EVP_UNSUPPORTED
 Downgrade your NodeJS version to LTS or set the `openssl-legacy-provider` flag in the `NODE_OPTIONS` environment variable like so `export NODE_OPTIONS=--openssl-legacy-provider`
 
 ### More Information
