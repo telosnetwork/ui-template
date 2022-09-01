@@ -21,7 +21,7 @@
     "dotenv": "^8.6.0",
     "eosjs": "^21.0.4",
     "eosjs-ecc": "^4.0.7",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "quasar": "^1.16.3",
     "ual-anchor": "^1.0.0",
     "ual-ledger": "^0.3.0",
