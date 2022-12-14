@@ -30,7 +30,7 @@
     "universal-authenticator-library": "^0.3.0"
   },
   "devDependencies": {
-    "@quasar/app": "^2.2.11",
+    "@quasar/app": "^2.4.3",
     "babel-eslint": "^10.0.1",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
